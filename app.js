@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
-const db = require('./config/keys').mongoURI;
 const mongoose = require('mongoose');
+const db = require('./config/keys').mongoURI;
 const bodyParser = require('body-parser');
 
 const users = require("./routes/api/users");
